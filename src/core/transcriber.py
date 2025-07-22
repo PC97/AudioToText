@@ -1,46 +1,59 @@
 # src/core/transcriber.py
 
 import json
-import wave
 import os
 from vosk import Model, KaldiRecognizer
 from pydub import AudioSegment
+from PySide6.QtCore import QThread, Signal
 
-# Path to the Vosk model folder
 MODEL_PATH = "models/vosk-model-small-en-us-0.15"
 
-def transcribe_audio(audio_file_path: str) -> str:
+
+class WorkerThread(QThread):
     """
-    Transcribes an audio file using the local Vosk model.
-    Handles MP3 and other formats by converting to WAV.
-
-    Args:
-        audio_file_path: The path to the audio file.
-
-    Returns:
-        The transcribed text.
+    Worker thread for performing audio transcription to prevent UI freezing.
     """
-    if not os.path.exists(MODEL_PATH):
-        raise FileNotFoundError("Vosk model not found. Please download and place it in the 'models' directory.")
+    # Define signals
+    # Signal to emit the final transcribed text
+    transcription_finished = Signal(str)
+    # Signal to emit error messages
+    error_occurred = Signal(str)
+    # Signal to emit progress updates (e.g., status messages)
+    progress_updated = Signal(str)
 
-    # --- Convert audio to the required format (WAV, 16kHz, mono) ---
-    # pydub handles various formats and uses ffmpeg under the hood.
-    sound = AudioSegment.from_file(audio_file_path)
-    sound = sound.set_channels(1)
-    sound = sound.set_frame_rate(16000)
+    def __init__(self, audio_file_path: str):
+        super().__init__()
+        self.audio_file_path = audio_file_path
 
-    # Vosk needs the raw audio data as bytes.
-    # We use a temporary in-memory buffer to avoid writing a file to disk.
-    buffer = sound.raw_data
+    def run(self):
+        """The main work of the thread."""
+        try:
+            # --- 1. Model Loading ---
+            self.progress_updated.emit("Loading transcription model...")
+            if not os.path.exists(MODEL_PATH):
+                raise FileNotFoundError("Vosk model not found.")
+            model = Model(MODEL_PATH)
 
-    # --- Perform Transcription ---
-    model = Model(MODEL_PATH)
-    recognizer = KaldiRecognizer(model, 16000)
+            # --- 2. Audio Conversion ---
+            self.progress_updated.emit("Preparing audio file...")
+            sound = AudioSegment.from_file(self.audio_file_path)
+            sound = sound.set_channels(1)
+            sound = sound.set_frame_rate(16000)
+            buffer = sound.raw_data
 
-    if not recognizer.AcceptWaveform(buffer):
-        # This handles shorter audio files that might be processed in one go.
-        pass
+            # --- 3. Transcription ---
+            self.progress_updated.emit("Transcribing... Please wait.")
+            recognizer = KaldiRecognizer(model, 16000)
+            if not recognizer.AcceptWaveform(buffer):
+                pass
 
-    result = recognizer.FinalResult()
-    # The result is a JSON string, we need to parse it to get the text.
-    return json.loads(result)["text"]
+            result = recognizer.FinalResult()
+            transcribed_text = json.loads(result)["text"]
+
+            self.transcription_finished.emit(transcribed_text)
+
+        except FileNotFoundError as e:
+            self.error_occurred.emit(f"Error: {e}. Please ensure the model is in the 'models' directory.")
+        except Exception as e:
+            # General error handling
+            self.error_occurred.emit(f"An unexpected error occurred: {e}")

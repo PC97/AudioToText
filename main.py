@@ -1,18 +1,12 @@
+# main.py (Final version)
 import sys
-from PySide6.QtWidgets import QApplication, QWidget, QVBoxLayout, QLabel
+from PySide6.QtWidgets import QApplication
+from src.ui.main_window import MainWindow
 
 def main():
     """Main function to run the application."""
     app = QApplication(sys.argv)
-    window = QWidget()
-    window.setWindowTitle("Audio Transcriber")
-    window.setGeometry(100, 100, 300, 100) # x, y, width, height
-
-    layout = QVBoxLayout()
-    label = QLabel("Hello, PySide6!")
-    layout.addWidget(label)
-    window.setLayout(layout)
-
+    window = MainWindow()
     window.show()
     sys.exit(app.exec())
 
