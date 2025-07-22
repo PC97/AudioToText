@@ -1,5 +1,7 @@
 # src/ui/main_window.py (Updated)
 # ... (imports remain the same, add the new one)
+import os
+
 from PySide6.QtWidgets import QMainWindow
 
 from src.core.transcriber import WorkerThread # Import the worker
