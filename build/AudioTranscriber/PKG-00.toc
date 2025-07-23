@@ -41,10 +41,6 @@
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
-  ('pyi_rth_pyside6',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyside6.py',
-   'PYSOURCE'),
   ('pyi_rth_multiprocessing',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
@@ -57,7 +53,30 @@
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
    'PYSOURCE'),
+  ('pyi_rth_pyside6',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyside6.py',
+   'PYSOURCE'),
   ('main', 'E:\\Projects after MBA\\AudioToText\\main.py', 'PYSOURCE'),
+  ('ffmpeg.exe', 'E:\\Projects after MBA\\AudioToText\\ffmpeg.exe', 'BINARY'),
+  ('ffplay.exe', 'E:\\Projects after MBA\\AudioToText\\ffplay.exe', 'BINARY'),
+  ('ffprobe.exe', 'E:\\Projects after MBA\\AudioToText\\ffprobe.exe', 'BINARY'),
+  ('vosk\\libgcc_s_seh-1.dll',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\vosk\\libgcc_s_seh-1.dll',
+   'BINARY'),
+  ('vosk\\libstdc++-6.dll',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\vosk\\libstdc++-6.dll',
+   'BINARY'),
+  ('vosk\\libvosk.dll',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\vosk\\libvosk.dll',
+   'BINARY'),
+  ('vosk\\libwinpthread-1.dll',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\vosk\\libwinpthread-1.dll',
+   'BINARY'),
   ('python312.dll',
    'C:\\Users\\pranj\\AppData\\Local\\Programs\\Python\\Python312\\python312.dll',
    'BINARY'),
@@ -65,49 +84,53 @@
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\opengl32sw.dll',
    'BINARY'),
-  ('PySide6\\plugins\\tls\\qopensslbackend.dll',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\tls\\qopensslbackend.dll',
-   'BINARY'),
   ('PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\tls\\qschannelbackend.dll',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\tls\\qschannelbackend.dll',
    'BINARY'),
   ('PySide6\\plugins\\tls\\qcertonlybackend.dll',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\tls\\qcertonlybackend.dll',
    'BINARY'),
+  ('PySide6\\plugins\\tls\\qopensslbackend.dll',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\tls\\qopensslbackend.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\tls\\qschannelbackend.dll',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\tls\\qschannelbackend.dll',
+   'BINARY'),
   ('PySide6\\plugins\\styles\\qmodernwindowsstyle.dll',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\styles\\qmodernwindowsstyle.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qwindows.dll',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qwindows.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
    'BINARY'),
   ('PySide6\\plugins\\platforms\\qdirect2d.dll',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qdirect2d.dll',
    'BINARY'),
-  ('PySide6\\plugins\\platforms\\qminimal.dll',
+  ('PySide6\\plugins\\imageformats\\qjpeg.dll',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qminimal.dll',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qjpeg.dll',
    'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qtiff.dll',
+  ('PySide6\\plugins\\imageformats\\qgif.dll',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qtiff.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qicns.dll',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qicns.dll',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qgif.dll',
    'BINARY'),
   ('PySide6\\plugins\\imageformats\\qtga.dll',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qtga.dll',
    'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qwbmp.dll',
+  ('PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwbmp.dll',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
    'BINARY'),
   ('PySide6\\plugins\\iconengines\\qsvgicon.dll',
    'E:\\Projects after '
@@ -117,44 +140,43 @@
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qico.dll',
    'BINARY'),
-  ('PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
+  ('PySide6\\plugins\\imageformats\\qtiff.dll',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qsvg.dll',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qsvg.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qtiff.dll',
    'BINARY'),
   ('PySide6\\plugins\\imageformats\\qwebp.dll',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwebp.dll',
    'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qwbmp.dll',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
   ('PySide6\\plugins\\platforms\\qoffscreen.dll',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qoffscreen.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qgif.dll',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qgif.dll',
    'BINARY'),
   ('PySide6\\plugins\\imageformats\\qpdf.dll',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qpdf.dll',
    'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qjpeg.dll',
+  ('PySide6\\plugins\\platforms\\qminimal.dll',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qjpeg.dll',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qminimal.dll',
    'BINARY'),
-  ('PySide6\\plugins\\platforms\\qwindows.dll',
+  ('PySide6\\plugins\\imageformats\\qsvg.dll',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qwindows.dll',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qsvg.dll',
    'BINARY'),
-  ('unicodedata.pyd',
-   'C:\\Users\\pranj\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\unicodedata.pyd',
+  ('PySide6\\plugins\\imageformats\\qicns.dll',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qicns.dll',
+   'BINARY'),
+  ('_decimal.pyd',
+   'C:\\Users\\pranj\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\pranj\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_hashlib.pyd',
    'EXTENSION'),
   ('_lzma.pyd',
    'C:\\Users\\pranj\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_lzma.pyd',
@@ -162,11 +184,8 @@
   ('_bz2.pyd',
    'C:\\Users\\pranj\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_bz2.pyd',
    'EXTENSION'),
-  ('_decimal.pyd',
-   'C:\\Users\\pranj\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_decimal.pyd',
-   'EXTENSION'),
-  ('_hashlib.pyd',
-   'C:\\Users\\pranj\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_hashlib.pyd',
+  ('unicodedata.pyd',
+   'C:\\Users\\pranj\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\unicodedata.pyd',
    'EXTENSION'),
   ('select.pyd',
    'C:\\Users\\pranj\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\select.pyd',
@@ -198,18 +217,6 @@
   ('_wmi.pyd',
    'C:\\Users\\pranj\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_wmi.pyd',
    'EXTENSION'),
-  ('PySide6\\QtCore.pyd',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\QtCore.pyd',
-   'EXTENSION'),
-  ('shiboken6\\Shiboken.pyd',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\shiboken6\\Shiboken.pyd',
-   'EXTENSION'),
-  ('PySide6\\QtNetwork.pyd',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\QtNetwork.pyd',
-   'EXTENSION'),
   ('_uuid.pyd',
    'C:\\Users\\pranj\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_uuid.pyd',
    'EXTENSION'),
@@ -224,6 +231,18 @@
   ('charset_normalizer\\md.cp312-win_amd64.pyd',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\charset_normalizer\\md.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtCore.pyd',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\QtCore.pyd',
+   'EXTENSION'),
+  ('shiboken6\\Shiboken.pyd',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\shiboken6\\Shiboken.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtNetwork.pyd',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\QtNetwork.pyd',
    'EXTENSION'),
   ('PySide6\\QtWidgets.pyd',
    'E:\\Projects after '
@@ -240,32 +259,32 @@
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\shiboken6\\MSVCP140.dll',
    'BINARY'),
-  ('VCRUNTIME140_1.dll',
-   'C:\\Users\\pranj\\AppData\\Local\\Programs\\Python\\Python312\\VCRUNTIME140_1.dll',
+  ('PySide6\\Qt6Network.dll',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\Qt6Network.dll',
    'BINARY'),
   ('PySide6\\Qt6Core.dll',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\Qt6Core.dll',
    'BINARY'),
-  ('PySide6\\Qt6Network.dll',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\Qt6Network.dll',
-   'BINARY'),
-  ('PySide6\\Qt6Widgets.dll',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\Qt6Widgets.dll',
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\pranj\\AppData\\Local\\Programs\\Python\\Python312\\VCRUNTIME140_1.dll',
    'BINARY'),
   ('PySide6\\Qt6Gui.dll',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\Qt6Gui.dll',
    'BINARY'),
-  ('PySide6\\Qt6Svg.dll',
+  ('PySide6\\Qt6Widgets.dll',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\Qt6Svg.dll',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\Qt6Widgets.dll',
    'BINARY'),
   ('PySide6\\Qt6VirtualKeyboard.dll',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\Qt6VirtualKeyboard.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Svg.dll',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\Qt6Svg.dll',
    'BINARY'),
   ('PySide6\\Qt6Pdf.dll',
    'E:\\Projects after '
@@ -280,36 +299,36 @@
   ('libffi-8.dll',
    'C:\\Users\\pranj\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\libffi-8.dll',
    'BINARY'),
-  ('PySide6\\VCRUNTIME140.dll',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\VCRUNTIME140.dll',
-   'BINARY'),
-  ('PySide6\\VCRUNTIME140_1.dll',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\VCRUNTIME140_1.dll',
-   'BINARY'),
-  ('python3.dll',
-   'C:\\Users\\pranj\\AppData\\Local\\Programs\\Python\\Python312\\python3.dll',
-   'BINARY'),
   ('PySide6\\MSVCP140.dll',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\MSVCP140.dll',
-   'BINARY'),
-  ('PySide6\\pyside6.abi3.dll',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\pyside6.abi3.dll',
    'BINARY'),
   ('shiboken6\\shiboken6.abi3.dll',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\shiboken6\\shiboken6.abi3.dll',
    'BINARY'),
-  ('shiboken6\\VCRUNTIME140_1.dll',
+  ('PySide6\\VCRUNTIME140_1.dll',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\shiboken6\\VCRUNTIME140_1.dll',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('PySide6\\pyside6.abi3.dll',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\pyside6.abi3.dll',
+   'BINARY'),
+  ('python3.dll',
+   'C:\\Users\\pranj\\AppData\\Local\\Programs\\Python\\Python312\\python3.dll',
+   'BINARY'),
+  ('PySide6\\VCRUNTIME140.dll',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\VCRUNTIME140.dll',
    'BINARY'),
   ('shiboken6\\VCRUNTIME140.dll',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\shiboken6\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('shiboken6\\VCRUNTIME140_1.dll',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\shiboken6\\VCRUNTIME140_1.dll',
    'BINARY'),
   ('PySide6\\MSVCP140_2.dll',
    'E:\\Projects after '
@@ -319,21 +338,21 @@
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\MSVCP140_1.dll',
    'BINARY'),
-  ('PySide6\\Qt6Qml.dll',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\Qt6Qml.dll',
-   'BINARY'),
   ('PySide6\\Qt6Quick.dll',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\Qt6Quick.dll',
    'BINARY'),
-  ('PySide6\\Qt6QmlMeta.dll',
+  ('PySide6\\Qt6Qml.dll',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\Qt6QmlMeta.dll',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\Qt6Qml.dll',
    'BINARY'),
   ('PySide6\\Qt6OpenGL.dll',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\Qt6OpenGL.dll',
+   'BINARY'),
+  ('PySide6\\Qt6QmlMeta.dll',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\Qt6QmlMeta.dll',
    'BINARY'),
   ('PySide6\\Qt6QmlModels.dll',
    'E:\\Projects after '
@@ -343,221 +362,366 @@
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\Qt6QmlWorkerScript.dll',
    'BINARY'),
-  ('PySide6\\translations\\qt_help_ka.qm',
+  ('models\\vosk-model-small-en-us-0.15\\README',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ka.qm',
+   'MBA\\AudioToText\\models\\vosk-model-small-en-us-0.15\\README',
    'DATA'),
-  ('PySide6\\translations\\qt_de.qm',
+  ('models\\vosk-model-small-en-us-0.15\\am\\final.mdl',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_de.qm',
+   'MBA\\AudioToText\\models\\vosk-model-small-en-us-0.15\\am\\final.mdl',
    'DATA'),
-  ('PySide6\\translations\\qt_lt.qm',
+  ('models\\vosk-model-small-en-us-0.15\\conf\\mfcc.conf',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_lt.qm',
+   'MBA\\AudioToText\\models\\vosk-model-small-en-us-0.15\\conf\\mfcc.conf',
    'DATA'),
-  ('PySide6\\translations\\qt_en.qm',
+  ('models\\vosk-model-small-en-us-0.15\\conf\\model.conf',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_en.qm',
+   'MBA\\AudioToText\\models\\vosk-model-small-en-us-0.15\\conf\\model.conf',
    'DATA'),
-  ('PySide6\\translations\\qt_help_hr.qm',
+  ('models\\vosk-model-small-en-us-0.15\\graph\\Gr.fst',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_hr.qm',
+   'MBA\\AudioToText\\models\\vosk-model-small-en-us-0.15\\graph\\Gr.fst',
    'DATA'),
-  ('PySide6\\translations\\qtbase_ca.qm',
+  ('models\\vosk-model-small-en-us-0.15\\graph\\HCLr.fst',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ca.qm',
+   'MBA\\AudioToText\\models\\vosk-model-small-en-us-0.15\\graph\\HCLr.fst',
    'DATA'),
-  ('PySide6\\translations\\qtbase_es.qm',
+  ('models\\vosk-model-small-en-us-0.15\\graph\\disambig_tid.int',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_es.qm',
+   'MBA\\AudioToText\\models\\vosk-model-small-en-us-0.15\\graph\\disambig_tid.int',
    'DATA'),
-  ('PySide6\\translations\\qtbase_de.qm',
+  ('models\\vosk-model-small-en-us-0.15\\graph\\phones\\word_boundary.int',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_de.qm',
+   'MBA\\AudioToText\\models\\vosk-model-small-en-us-0.15\\graph\\phones\\word_boundary.int',
    'DATA'),
-  ('PySide6\\translations\\qtbase_hu.qm',
+  ('models\\vosk-model-small-en-us-0.15\\ivector\\final.dubm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_hu.qm',
+   'MBA\\AudioToText\\models\\vosk-model-small-en-us-0.15\\ivector\\final.dubm',
    'DATA'),
-  ('PySide6\\translations\\qtbase_ar.qm',
+  ('models\\vosk-model-small-en-us-0.15\\ivector\\final.ie',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ar.qm',
+   'MBA\\AudioToText\\models\\vosk-model-small-en-us-0.15\\ivector\\final.ie',
    'DATA'),
-  ('PySide6\\translations\\qt_help_sl.qm',
+  ('models\\vosk-model-small-en-us-0.15\\ivector\\final.mat',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_sl.qm',
+   'MBA\\AudioToText\\models\\vosk-model-small-en-us-0.15\\ivector\\final.mat',
    'DATA'),
-  ('PySide6\\translations\\qt_help_pl.qm',
+  ('models\\vosk-model-small-en-us-0.15\\ivector\\global_cmvn.stats',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_pl.qm',
+   'MBA\\AudioToText\\models\\vosk-model-small-en-us-0.15\\ivector\\global_cmvn.stats',
    'DATA'),
-  ('PySide6\\translations\\qt_help_sk.qm',
+  ('models\\vosk-model-small-en-us-0.15\\ivector\\online_cmvn.conf',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_sk.qm',
+   'MBA\\AudioToText\\models\\vosk-model-small-en-us-0.15\\ivector\\online_cmvn.conf',
    'DATA'),
-  ('PySide6\\translations\\qtbase_zh_CN.qm',
+  ('models\\vosk-model-small-en-us-0.15\\ivector\\splice.conf',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_zh_CN.qm',
+   'MBA\\AudioToText\\models\\vosk-model-small-en-us-0.15\\ivector\\splice.conf',
    'DATA'),
-  ('PySide6\\translations\\qtbase_tr.qm',
+  ('vosk\\__init__.py',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_tr.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\vosk\\__init__.py',
    'DATA'),
-  ('PySide6\\translations\\qt_help_ca.qm',
+  ('vosk\\__pycache__\\__init__.cpython-312.pyc',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ca.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\vosk\\__pycache__\\__init__.cpython-312.pyc',
    'DATA'),
-  ('PySide6\\translations\\qtbase_he.qm',
+  ('vosk\\__pycache__\\vosk_cffi.cpython-312.pyc',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_he.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\vosk\\__pycache__\\vosk_cffi.cpython-312.pyc',
    'DATA'),
-  ('PySide6\\translations\\qt_help_uk.qm',
+  ('vosk\\transcriber\\__init__.py',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_uk.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\vosk\\transcriber\\__init__.py',
    'DATA'),
-  ('PySide6\\translations\\qt_help_ru.qm',
+  ('vosk\\transcriber\\__pycache__\\__init__.cpython-312.pyc',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ru.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\vosk\\transcriber\\__pycache__\\__init__.cpython-312.pyc',
    'DATA'),
-  ('PySide6\\translations\\qt_ja.qm',
+  ('vosk\\transcriber\\__pycache__\\cli.cpython-312.pyc',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ja.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\vosk\\transcriber\\__pycache__\\cli.cpython-312.pyc',
    'DATA'),
-  ('PySide6\\translations\\qt_bg.qm',
+  ('vosk\\transcriber\\__pycache__\\transcriber.cpython-312.pyc',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_bg.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\vosk\\transcriber\\__pycache__\\transcriber.cpython-312.pyc',
    'DATA'),
-  ('PySide6\\translations\\qt_cs.qm',
+  ('vosk\\transcriber\\cli.py',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_cs.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\vosk\\transcriber\\cli.py',
    'DATA'),
-  ('PySide6\\translations\\qtbase_fa.qm',
+  ('vosk\\transcriber\\transcriber.py',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_fa.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\vosk\\transcriber\\transcriber.py',
    'DATA'),
-  ('PySide6\\translations\\qtbase_pt_BR.qm',
+  ('vosk\\vosk_cffi.py',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_pt_BR.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\vosk\\vosk_cffi.py',
    'DATA'),
-  ('PySide6\\translations\\qt_uk.qm',
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_uk.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
    'DATA'),
-  ('PySide6\\translations\\qt_help_tr.qm',
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_tr.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
    'DATA'),
-  ('PySide6\\translations\\qtbase_pl.qm',
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_pl.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
    'DATA'),
-  ('PySide6\\translations\\qt_fi.qm',
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_fi.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
    'DATA'),
-  ('PySide6\\translations\\qt_help_es.qm',
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_es.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
    'DATA'),
-  ('PySide6\\translations\\qt_help_pt_BR.qm',
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_pt_BR.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
    'DATA'),
-  ('PySide6\\translations\\qt_fr.qm',
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_fr.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
    'DATA'),
-  ('PySide6\\translations\\qt_help_gl.qm',
+  ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_gl.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem '
+   'ipsum.txt',
    'DATA'),
-  ('PySide6\\translations\\qt_zh_TW.qm',
+  ('certifi\\py.typed',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_zh_TW.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\certifi\\py.typed',
    'DATA'),
-  ('PySide6\\translations\\qt_ka.qm',
+  ('certifi\\cacert.pem',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ka.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_nn.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_nn.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_sl.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_sl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_ar.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ar.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_bg.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_bg.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_lv.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_lv.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_es.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_es.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_ca.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ca.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_zh_CN.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_zh_CN.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_ja.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ja.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\certifi\\cacert.pem',
    'DATA'),
   ('PySide6\\translations\\qt_pl.qm',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_pl.qm',
    'DATA'),
+  ('PySide6\\translations\\qtbase_ru.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_hu.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_hr.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_cs.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fr.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_zh_TW.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_zh_TW.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_fr.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_fr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_de.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_de.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_es.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_gl.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_gl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_es.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ka.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ka.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_lv.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_uk.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_uk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ja.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_he.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_he.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ar.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ko.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_zh_TW.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_zh_TW.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fa.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_fa.qm',
+   'DATA'),
   ('PySide6\\translations\\qtbase_en.qm',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_en.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_help_cs.qm',
+  ('PySide6\\translations\\qt_help_zh_CN.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_cs.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_zh_CN.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_pt_BR.qm',
+  ('PySide6\\translations\\qt_help_pt_BR.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_pt_BR.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_hr.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_hr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_sk.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_sk.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_tr.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_tr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_bg.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_bg.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_pt_BR.qm',
    'DATA'),
   ('PySide6\\translations\\qtbase_nn.qm',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_nn.qm',
    'DATA'),
+  ('PySide6\\translations\\qt_help_ko.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_bg.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_bg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ko.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ko.qm',
+   'DATA'),
   ('PySide6\\translations\\qt_ru.qm',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ru.qm',
    'DATA'),
-  ('PySide6\\translations\\qtbase_ru.qm',
+  ('PySide6\\translations\\qtbase_fi.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ru.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_gl.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_gl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_hu.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_en.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_en.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_da.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_da.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_pt_PT.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_pt_PT.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_hr.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ja.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ja.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ru.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_sk.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_sk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_uk.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_uk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ar.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ar.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_cs.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_lv.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_lv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_fi.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_fi.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_en.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_en.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_zh_CN.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_zh_CN.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_nl.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_nl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_tr.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_tr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_pt_BR.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_pt_BR.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ka.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ka.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_hr.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_sv.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_sv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ca.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ca.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_gd.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_tr.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_tr.qm',
    'DATA'),
   ('PySide6\\translations\\qt_help_da.qm',
    'E:\\Projects after '
@@ -567,190 +731,141 @@
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_nn.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_he.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_he.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_hu.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_hu.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_ka.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ka.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_fi.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_fi.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_gd.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_gd.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_fr.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_fr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_zh_TW.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_zh_TW.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_de.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_de.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_ko.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ko.qm',
-   'DATA'),
   ('PySide6\\translations\\qtbase_uk.qm',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_uk.qm',
    'DATA'),
-  ('PySide6\\translations\\qtbase_ja.qm',
+  ('PySide6\\translations\\qtbase_tr.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ja.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_tr.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_pt_PT.qm',
+  ('PySide6\\translations\\qt_help_sl.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_pt_PT.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_sl.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_it.qm',
+  ('PySide6\\translations\\qtbase_hu.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_it.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_hu.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_help_zh_CN.qm',
+  ('PySide6\\translations\\qtbase_bg.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_zh_CN.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_cs.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_cs.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_nl.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_nl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_ar.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ar.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_bg.qm',
    'DATA'),
   ('PySide6\\translations\\qt_gd.qm',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_gd.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_da.qm',
+  ('PySide6\\translations\\qtbase_he.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_da.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_he.qm',
    'DATA'),
   ('PySide6\\translations\\qt_fa.qm',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_fa.qm',
    'DATA'),
-  ('PySide6\\translations\\qtbase_da.qm',
+  ('PySide6\\translations\\qtbase_it.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_da.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_it.qm',
    'DATA'),
-  ('PySide6\\translations\\qtbase_lv.qm',
+  ('PySide6\\translations\\qt_it.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_lv.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_it.qm',
    'DATA'),
-  ('PySide6\\translations\\qtbase_zh_TW.qm',
+  ('PySide6\\translations\\qt_help_pl.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_zh_TW.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_hr.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_hr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_sv.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_sv.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_ko.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ko.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_en.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_en.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_sk.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_sk.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_fr.qm',
-   'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_fr.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_pl.qm',
    'DATA'),
   ('PySide6\\translations\\qt_help_it.qm',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_it.qm',
    'DATA'),
-  ('PySide6\\translations\\qtbase_it.qm',
+  ('PySide6\\translations\\qt_sk.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_it.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_sk.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_nl.qm',
+  ('PySide6\\translations\\qt_ca.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_nl.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ca.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_help_hu.qm',
+  ('PySide6\\translations\\qt_nn.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_hu.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_nn.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_help_ko.qm',
+  ('PySide6\\translations\\qtbase_zh_TW.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ko.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_es.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_cs.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_sl.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_sl.qm',
    'DATA'),
   ('PySide6\\translations\\qtbase_nl.qm',
    'E:\\Projects after '
    'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_nl.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_gl.qm',
+  ('PySide6\\translations\\qt_help_ja.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_gl.qm',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_ja.qm',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+  ('PySide6\\translations\\qt_lt.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_lt.qm',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+  ('PySide6\\translations\\qt_help_nl.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_nl.qm',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
+  ('PySide6\\translations\\qt_help_fr.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_help_fr.qm',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+  ('PySide6\\translations\\qtbase_pt_BR.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_pt_BR.qm',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+  ('PySide6\\translations\\qt_de.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_de.qm',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
+  ('PySide6\\translations\\qt_bg.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_bg.qm',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
+  ('PySide6\\translations\\qtbase_pl.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_pl.qm',
    'DATA'),
-  ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
+  ('PySide6\\translations\\qt_ar.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem '
-   'ipsum.txt',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qt_ar.qm',
    'DATA'),
-  ('certifi\\cacert.pem',
+  ('PySide6\\translations\\qtbase_sk.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\certifi\\cacert.pem',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_sk.qm',
    'DATA'),
-  ('certifi\\py.typed',
+  ('PySide6\\translations\\qtbase_zh_CN.qm',
    'E:\\Projects after '
-   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\certifi\\py.typed',
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_zh_CN.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_da.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ka.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_ka.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_de.qm',
+   'E:\\Projects after '
+   'MBA\\AudioToText\\.venv\\Lib\\site-packages\\PySide6\\translations\\qtbase_de.qm',
    'DATA'),
   ('base_library.zip',
    'E:\\Projects after '
