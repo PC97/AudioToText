@@ -1,4 +1,5 @@
-# main.py (Final version)
+# main.py
+
 import sys
 from PySide6.QtWidgets import QApplication
 from src.ui.main_window import MainWindow
